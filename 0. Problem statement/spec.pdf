@@ -1,0 +1,695 @@
+%PDF-1.4
+%“Œ‹ž ReportLab Generated PDF document http://www.reportlab.com
+1 0 obj
+<< /F1 2 0 R /F2 3 0 R /F3 4 0 R /F4 6 0 R /F5 7 0 R >>
+endobj
+2 0 obj
+<< /BaseFont /Helvetica /Encoding /WinAnsiEncoding /Name /F1 /Subtype /Type1 /Type /Font >>
+endobj
+3 0 obj
+<< /BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding /Name /F2 /Subtype /Type1 /Type /Font >>
+endobj
+4 0 obj
+<< /BaseFont /Helvetica-Oblique /Encoding /WinAnsiEncoding /Name /F3 /Subtype /Type1 /Type /Font >>
+endobj
+5 0 obj
+<< /Contents 17 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 16 0 R /Resources << /Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ] >> /Rotate 0 /Trans <<  >> 
+  /Type /Page >>
+endobj
+6 0 obj
+<< /BaseFont /Courier /Encoding /WinAnsiEncoding /Name /F4 /Subtype /Type1 /Type /Font >>
+endobj
+7 0 obj
+<< /BaseFont /Courier-Bold /Encoding /WinAnsiEncoding /Name /F5 /Subtype /Type1 /Type /Font >>
+endobj
+8 0 obj
+<< /Contents 18 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 16 0 R /Resources << /Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ] >> /Rotate 0 /Trans <<  >> 
+  /Type /Page >>
+endobj
+9 0 obj
+<< /Outlines 11 0 R /PageLabels 19 0 R /PageMode /UseNone /Pages 16 0 R /Type /Catalog >>
+endobj
+10 0 obj
+<< /Author () /CreationDate (D:20160801154056-01'00') /Creator (\(unspecified\)) /Keywords () /ModDate (D:20160801154056-01'00') /Producer (ReportLab PDF Library - www.reportlab.com) 
+  /Subject (\(unspecified\)) /Title (Data series monitor) /Trapped /False >>
+endobj
+11 0 obj
+<< /Count 4 /First 12 0 R /Last 15 0 R /Type /Outlines >>
+endobj
+12 0 obj
+<< /Dest [ 5 0 R /XYZ 62.69291 569.0236 0 ] /Next 13 0 R /Parent 11 0 R /Title (Specification of the program) >>
+endobj
+13 0 obj
+<< /Dest [ 5 0 R /XYZ 62.69291 266.0236 0 ] /Next 14 0 R /Parent 11 0 R /Prev 12 0 R /Title (Analysis of the program) >>
+endobj
+14 0 obj
+<< /Dest [ 8 0 R /XYZ 62.69291 765.0236 0 ] /Next 15 0 R /Parent 11 0 R /Prev 13 0 R /Title (Tips) >>
+endobj
+15 0 obj
+<< /Dest [ 8 0 R /XYZ 62.69291 506.4236 0 ] /Parent 11 0 R /Prev 14 0 R /Title (Example input) >>
+endobj
+16 0 obj
+<< /Count 2 /Kids [ 5 0 R 8 0 R ] /Type /Pages >>
+endobj
+17 0 obj
+<< /Length 8060 >>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 741.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F2 20 Tf 24 TL 141.5849 0 Td (Data series monitor) Tj T* -141.5849 0 Td ET
+Q
+Q
+q
+1 0 0 1 62.69291 683.0236 cm
+q
+BT 1 0 0 1 0 38 Tm .743672 Tw 12 TL /F1 10 Tf 0 0 0 rg (The goal of this assignment is to 1\) write a program that tracks a continuous stream of input values and) Tj T* 0 Tw .993314 Tw (computes some properties over them and 2\) analyze/describe general performance properties over that) Tj T* 0 Tw 2.939147 Tw (program. Any programming language is accepted for which public documentation is available, with) Tj T* 0 Tw (preference for C, C++, Java, Python, Haskell, ML, Go or Rust.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 665.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (This assignment aims to exercise your ability to:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 659.0236 cm
+Q
+q
+1 0 0 1 62.69291 659.0236 cm
+Q
+q
+1 0 0 1 62.69291 647.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (write a program working with asynchronous input and output;) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 641.0236 cm
+Q
+q
+1 0 0 1 62.69291 629.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (perform simple computations on finite time series;) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 623.0236 cm
+Q
+q
+1 0 0 1 62.69291 611.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (reason about basic run-time behavior of your own code.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 611.0236 cm
+Q
+q
+1 0 0 1 62.69291 581.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL .412765 Tw (Questions are free: the event of you asking a question and which question you ask will not influence how) Tj T* 0 Tw (we evaluate your work \(neither positively or negatively\). Feel free to ask anything.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 548.0236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Specification of the program) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 518.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL 2.348651 Tw (The program must read on a continuous input stream and produce results on two continous output) Tj T* 0 Tw (streams. We will call these streams 0, 1 and 2.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 488.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL 1.475777 Tw (Data will be delivered by an external system to stream 0 as input to the program. The input format is) Tj T* 0 Tw (textual: integer numbers in base 10, each followed by a newline character.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 470.0236 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (The numbers arrive on stream 0 ) Tj /F3 10 Tf (irregularly over time ) Tj /F1 10 Tf (with unpredictable and unbounded delays.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 428.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 26 Tm /F1 10 Tf 12 TL 1.742765 Tw (The program must output a copy of each input from stream 0 immediately on stream 1 and, every 1) Tj T* 0 Tw .11686 Tw (second, independently of the rate of arrival of numbers on stream 0, output the following values separated) Tj T* 0 Tw (by spaces and terminated with a newline character on stream 2:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 422.0236 cm
+Q
+q
+1 0 0 1 62.69291 350.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+BT 1 0 0 1 0 2 Tm  T* ET
+q
+1 0 0 1 20 66 cm
+Q
+q
+1 0 0 1 20 66 cm
+Q
+q
+1 0 0 1 20 54 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (the sliding average of the inputs received in the preceeding 10 seconds,) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 20 48 cm
+Q
+q
+1 0 0 1 20 36 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (the quantized time integral of the inputs received in the preceeding 10 seconds,) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 20 30 cm
+Q
+q
+1 0 0 1 20 18 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (the age of the oldest input value in the last 10 seconds,) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 20 12 cm
+Q
+q
+1 0 0 1 20 0 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (the age of the youngest input input value in the last 10 seconds.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 20 0 cm
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 350.0236 cm
+Q
+q
+1 0 0 1 62.69291 320.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL .321098 Tw (The 4 values must be computed approximately in floating point. The first two should use at least one digit) Tj T* 0 Tw (of decimal precision, the last two up to 6 \(microsecond precision\).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 278.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 26 Tm /F1 10 Tf 12 TL .977356 Tw (Stream 1 or 2 may occasionally block. If this happens, the output due to be delivered while a stream is) Tj T* 0 Tw 2.37561 Tw (blocked must be abandoned. In particular the first full line of values emitted after an output stream) Tj T* 0 Tw (becomes unblocked must not be outdated.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 245.0236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Analysis of the program) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 227.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (You should provide a short explanation to estimate:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 221.0236 cm
+Q
+q
+1 0 0 1 62.69291 221.0236 cm
+Q
+q
+1 0 0 1 62.69291 197.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 9 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL .293145 Tw (memory usage of your program in bytes as a function of the number of input values received in a 10) Tj T* 0 Tw (seconds interval;) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 191.0236 cm
+Q
+q
+1 0 0 1 62.69291 167.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 9 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL .075984 Tw (the stream-to-stream latency in seconds between streams 0 and 1 \(delay between the arrival of input) Tj T* 0 Tw (on stream 0 and the emission of its copy on stream 1\);) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 161.0236 cm
+Q
+q
+1 0 0 1 62.69291 149.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (the time jitter in seconds on stream 2 assuming stream 2 is not blocked.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 149.0236 cm
+Q
+q
+1 0 0 1 62.69291 119.0236 cm
+q
+BT 1 0 0 1 0 14 Tm .49936 Tw 12 TL /F1 10 Tf 0 0 0 rg (\(Your explanation can either be ) Tj /F3 10 Tf (analytical) Tj /F1 10 Tf (, or you can propose a ) Tj /F3 10 Tf (methodology ) Tj /F1 10 Tf (about how to estimate this) Tj T* 0 Tw (experimentally. When choosing the latter, you do not need to run the experiment yourself.\)) Tj T* ET
+Q
+Q
+ 
+endstream
+endobj
+18 0 obj
+<< /Length 5628 >>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 744.0236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Tips) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 726.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (The quantized time integral of a time series:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 644.8236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 72 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 50 Tm /F4 10 Tf 12 TL (t1  v1) Tj T* (t2  v2) Tj T* (t3  v3) Tj T* (t4  v4) Tj T* (...) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 624.8236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (is defined either as:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 591.6236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 24 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F4 10 Tf 12 TL (\(t2 - t1\) * v1 + \(t3 - t2\) * v2 + \(t4 - t3\) * v3 ...) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 571.6236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (or as:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 538.4236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 24 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F4 10 Tf 12 TL (\(t2 - t1\) * v2 + \(t3 - t2\) * v3 + \(t4 - t3\) * v4 ...) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 518.4236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (We suggest you use the 2nd form. \(But we accept both\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 485.4236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Example input) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 467.4236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (You can use the following program \(Python\) to generate a test input stream:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 386.2236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 72 re B*
+Q
+q
+.960784 .960784 .862745 rg
+n 0 48 24 12 re f*
+.960784 .960784 .862745 rg
+n 30 48 36 12 re f*
+.960784 .960784 .862745 rg
+n 72 48 36 12 re f*
+.960784 .960784 .862745 rg
+n 114 48 36 12 re f*
+.960784 .960784 .862745 rg
+n 0 36 24 12 re f*
+.960784 .960784 .862745 rg
+n 30 36 24 12 re f*
+.960784 .960784 .862745 rg
+n 60 36 36 12 re f*
+.960784 .960784 .862745 rg
+n 102 36 30 12 re f*
+.960784 .960784 .862745 rg
+n 0 24 30 12 re f*
+.960784 .960784 .862745 rg
+n 36 24 24 12 re f*
+.960784 .960784 .862745 rg
+n 60 24 6 12 re f*
+.960784 .960784 .862745 rg
+n 18 12 30 12 re f*
+.960784 .960784 .862745 rg
+n 48 12 6 12 re f*
+.960784 .960784 .862745 rg
+n 54 12 18 12 re f*
+.960784 .960784 .862745 rg
+n 72 12 6 12 re f*
+.960784 .960784 .862745 rg
+n 78 12 36 12 re f*
+.960784 .960784 .862745 rg
+n 114 12 12 12 re f*
+.960784 .960784 .862745 rg
+n 126 12 6 12 re f*
+.960784 .960784 .862745 rg
+n 132 12 6 12 re f*
+.960784 .960784 .862745 rg
+n 138 12 12 12 re f*
+.960784 .960784 .862745 rg
+n 150 12 12 12 re f*
+.960784 .960784 .862745 rg
+n 162 12 6 12 re f*
+.960784 .960784 .862745 rg
+n 168 12 6 12 re f*
+.960784 .960784 .862745 rg
+n 174 12 6 12 re f*
+.960784 .960784 .862745 rg
+n 180 12 36 12 re f*
+.960784 .960784 .862745 rg
+n 216 12 12 12 re f*
+.960784 .960784 .862745 rg
+n 228 12 6 12 re f*
+.960784 .960784 .862745 rg
+n 234 12 6 12 re f*
+.960784 .960784 .862745 rg
+n 240 12 24 12 re f*
+.960784 .960784 .862745 rg
+n 18 0 30 12 re f*
+.960784 .960784 .862745 rg
+n 48 0 6 12 re f*
+.960784 .960784 .862745 rg
+n 54 0 36 12 re f*
+.960784 .960784 .862745 rg
+n 90 0 12 12 re f*
+.960784 .960784 .862745 rg
+n 102 0 6 12 re f*
+.960784 .960784 .862745 rg
+n 108 0 6 12 re f*
+.960784 .960784 .862745 rg
+n 114 0 6 12 re f*
+.960784 .960784 .862745 rg
+n 120 0 12 12 re f*
+.960784 .960784 .862745 rg
+n 132 0 6 12 re f*
+.960784 .960784 .862745 rg
+n 138 0 6 12 re f*
+.960784 .960784 .862745 rg
+n 144 0 6 12 re f*
+.960784 .960784 .862745 rg
+n 150 0 6 12 re f*
+.960784 .960784 .862745 rg
+n 156 0 36 12 re f*
+.960784 .960784 .862745 rg
+n 192 0 12 12 re f*
+.960784 .960784 .862745 rg
+n 204 0 6 12 re f*
+.960784 .960784 .862745 rg
+n 210 0 6 12 re f*
+.960784 .960784 .862745 rg
+n 216 0 18 12 re f*
+BT 1 0 0 1 0 50 Tm 12 TL /F5 10 Tf 0 .501961 0 rg (from) Tj /F4 10 Tf 0 0 0 rg ( ) Tj /F5 10 Tf 0 0 1 rg (random) Tj /F4 10 Tf 0 0 0 rg ( ) Tj /F5 10 Tf 0 .501961 0 rg (import) Tj /F4 10 Tf 0 0 0 rg ( ) Tj 0 0 0 rg (random) Tj 0 0 0 rg  T* /F5 10 Tf 0 .501961 0 rg (from) Tj /F4 10 Tf 0 0 0 rg ( ) Tj /F5 10 Tf 0 0 1 rg (time) Tj /F4 10 Tf 0 0 0 rg ( ) Tj /F5 10 Tf 0 .501961 0 rg (import) Tj /F4 10 Tf 0 0 0 rg ( ) Tj 0 0 0 rg (sleep) Tj 0 0 0 rg  T* /F5 10 Tf 0 .501961 0 rg (while) Tj /F4 10 Tf 0 0 0 rg ( ) Tj 0 .501961 0 rg (True) Tj 0 0 0 rg (:) Tj 0 0 0 rg  T* (   ) Tj /F5 10 Tf 0 .501961 0 rg (print) Tj /F4 10 Tf 0 0 0 rg (\() Tj 0 .501961 0 rg (int) Tj 0 0 0 rg (\() Tj 0 0 0 rg (random) Tj 0 0 0 rg (\(\)) Tj .4 .4 .4 rg (*) Tj 0 0 0 rg (\() Tj .4 .4 .4 rg (10) Tj .4 .4 .4 rg (**) Tj 0 0 0 rg (\() Tj .4 .4 .4 rg (1) Tj .4 .4 .4 rg (+) Tj 0 0 0 rg (random) Tj 0 0 0 rg (\(\)) Tj .4 .4 .4 rg (*) Tj .4 .4 .4 rg (4) Tj 0 0 0 rg (\)\)\)\)) Tj 0 0 0 rg  T* (   ) Tj 0 0 0 rg (sleep) Tj 0 0 0 rg (\() Tj 0 0 0 rg (random) Tj 0 0 0 rg (\(\)) Tj .4 .4 .4 rg (*) Tj 0 0 0 rg (\() Tj .4 .4 .4 rg (2) Tj .4 .4 .4 rg (**) Tj 0 0 0 rg (\() Tj .4 .4 .4 rg (-) Tj .4 .4 .4 rg (2) Tj .4 .4 .4 rg (+) Tj 0 0 0 rg (random) Tj 0 0 0 rg (\(\)) Tj .4 .4 .4 rg (*) Tj .4 .4 .4 rg (3) Tj 0 0 0 rg (\)\)\)) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+ 
+endstream
+endobj
+19 0 obj
+<< /Nums [ 0 20 0 R 1 21 0 R ] >>
+endobj
+20 0 obj
+<< /S /D /St 1 >>
+endobj
+21 0 obj
+<< /S /D /St 2 >>
+endobj
+xref
+0 22
+0000000000 65535 f
+0000000075 00000 n
+0000000149 00000 n
+0000000259 00000 n
+0000000374 00000 n
+0000000492 00000 n
+0000000701 00000 n
+0000000809 00000 n
+0000000922 00000 n
+0000001131 00000 n
+0000001239 00000 n
+0000001520 00000 n
+0000001597 00000 n
+0000001729 00000 n
+0000001869 00000 n
+0000001990 00000 n
+0000002107 00000 n
+0000002176 00000 n
+0000010293 00000 n
+0000015978 00000 n
+0000016031 00000 n
+0000016068 00000 n
+trailer
+<< /ID 
+ % ReportLab generated PDF document -- digest (http://www.reportlab.com)
+ [(\366\26760E\217\2758\201[.\350\037\0163\236) (\366\26760E\217\2758\201[.\350\037\0163\236)]
+ /Info 10 0 R /Root 9 0 R /Size 22 >>
+startxref
+16105
+%%EOF
